@@ -145,3 +145,67 @@ header {
   padding-bottom: 24px;
   text-align: center;
 }
+
+/* main css */
+
+.color {
+  background-color: #1a0b2e;
+}
+
+.main-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+}
+
+/* about section css */
+
+  /* padding-top: 50px; */
+
+.about-section h3 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 16px;
+}
+
+.p-1 {
+  font-size: 0.9375rem;
+  color: white;
+  line-height: 20px;
+}
+.p-3 {
+  font-size: 0.9375rem;
+  color: white;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+.p-4 {
+  font-size: 0.9375rem;
+  color: white;
+  line-height: 20px;
+  margin-bottom: 50px;
+}
+
+/* number-section */
+.number-section {
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  padding-top: 80px;
+  padding-bottom: 120px;
+  text-align: center;
+  justify-content: space-between;
+}
+.card-header {
+  font-size: 3rem;
+  font-weight: 900px;
+  color: #00ff88;
+}
+
+.info {
+  font-size: 16px;
+  color: white;
+  line-height: 20px;
+}
