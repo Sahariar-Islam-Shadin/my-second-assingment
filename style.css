@@ -49,3 +49,54 @@ hr {
   height: 1px;
   background-color: #757575;
 }
+
+/* header styles */
+header {
+  background-color: #1a0b2e;
+  padding-top: 16px;
+  /* background: url(./img/hero-bg.png);
+    background-repeat: no-repeat; */
+  /* background-position: center; */
+}
+.hero-img {
+  justify-content: center;
+  list-style: none;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+/* navbar related styles */
+.header-section {
+  border-bottom: 1px solid #412567;
+  padding-bottom: 16px;
+}
+
+.navbar {
+  max-width: 1200px;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.nav-menu {
+  list-style: none;
+  margin-right: 32px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 120%;
+  color: white;
+}
+
+/* banner section css */
+.main-batch {
+  position: relative;
+}
+.batch-shape {
+  position: absolute;
+  top: 0;
+  right: -21px;
+}
